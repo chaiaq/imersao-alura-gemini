@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    font-family: "Lora", serif;
+    background-color: #223322;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #77aa77;
+    text-align: center;
+    letter-spacing: 0.4rem;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    background-color: yellow;
+}
+
+section input {
+    background-color: red;
+    width: 30rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    color: #45474B;
+    font-size: 1rem; 
+    box-sizing: border-box;
+}
+
+
+section button {
+    padding: 0.8rem 1.2rem; 
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #556655; 
+    color: #F5F7F8;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.resultados-pesquisa {
+    background-color: green;
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+
+.item-resultado {
+    background: #d8d8d8;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.item-resultado a {
+    text-decoration: none;
+    color: #B8860B;
+}
+
+.item-resultado a:hover {
+    text-decoration: underline;
+}
+
+.descricao-livro {
+    color: #586556;
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: #556655;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+}
